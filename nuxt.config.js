@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'guillaume-ducuing-V2',
+    title: 'Guillaume Ducuing Développeur web',
     htmlAttrs: {
       lang: 'en'
     },
