@@ -1,0 +1,29 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/footer.js": "components/footer.js",
+    "components/form.js": "components/form.js",
+    "components/header.js": "components/header.js",
+    "components/hero.js": "components/hero.js",
+    "components/nuxt-logo.js": "components/nuxt-logo.js",
+    "components/projects.js": "components/projects.js",
+    "components/services.js": "components/services.js",
+    "components/skills.js": "components/skills.js",
+    "components/tutorial.js": "components/tutorial.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/footer.js": "components/footer.js.map",
+    "components/form.js": "components/form.js.map",
+    "components/header.js": "components/header.js.map",
+    "components/hero.js": "components/hero.js.map",
+    "components/nuxt-logo.js": "components/nuxt-logo.js.map",
+    "components/projects.js": "components/projects.js.map",
+    "components/services.js": "components/services.js.map",
+    "components/skills.js": "components/skills.js.map",
+    "components/tutorial.js": "components/tutorial.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
