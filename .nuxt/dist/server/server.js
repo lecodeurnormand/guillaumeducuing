@@ -6838,7 +6838,7 @@ async function createApp(ssrContext, config = {}) {
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
     head: {
-      "title": "guillaume-ducuing-V2",
+      "title": "Guillaume Ducuing Développeur web",
       "htmlAttrs": {
         "lang": "en"
       },
