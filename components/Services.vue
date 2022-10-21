@@ -150,4 +150,31 @@
         }  
     }
 }   
+/*Mobile*/
+@media screen and ( max-width: 70em) {
+.containerservice{
+  margin: inherit;
+  padding: inherit;
+}
+.container-serv{
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+}
+.container-serv .container-text{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  padding: inherit;
+  justify-content: center;
+  align-self: center;
+}
+.container-text p{
+  text-align: justify;
+  margin: auto;
+}
+}
 </style>
