@@ -61,20 +61,20 @@ window.addEventListener('scroll',()=>{
 //     duration:2000
 // });
 
-// function burger(){
-//     let burger = document.querySelector('.burger i');
-//     let menu = document.querySelector('.menu');
-//         burger.addEventListener('click',(e)=>{
-//             e.preventDefault();
-//             menu.classList.toggle('menuopen');
-//             e.stopPropagation();
-//         })
-//     document.addEventListener('click',(e)=>{
-//         if($(menu).hasClass('menuopen'));
-//         menu.classList.remove('menuopen');
-//     })
-// }
-// burger();
+function burger(){
+    let burger = document.querySelector('.burger img');
+    let menu = document.querySelector('.menu');
+        burger.addEventListener('click',(e)=>{
+            e.preventDefault();
+            menu.classList.toggle('menuopen');
+            e.stopPropagation();
+        })
+    document.addEventListener('click',(e)=>{
+        if(menu.classList.contains('menuopen'));
+        menu.classList.remove('menuopen');
+    })
+}
+burger();
 
 
 function myLoader(){
@@ -82,9 +82,12 @@ function myLoader(){
     let frame = document.querySelector('.frame');
     let loader = document.querySelector('.loader');
     let body = document.querySelector('body');
+    let burger = document.querySelector('.burger');
+    burger.style.display="none";
         body.classList.add('scroll');
         window.addEventListener('scroll',()=>{
             if(scrollY>50){
+                burger.style.display="block";
                 loader.classList.add('display');
                 body.classList.remove('scroll');
                 frame.classList.add('go');

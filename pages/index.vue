@@ -90,7 +90,6 @@ section h2{
 
 .button-heading{
   position: absolute;
-  // position: sticky;
   width: 30px;
   height: auto;
   writing-mode: vertical-lr;
@@ -107,7 +106,7 @@ section h2{
 /*Desktop*/
 @media screen and (min-width: 64em){
 
-  .burger i{
+  .burger img{
   visibility: hidden;
   }
 
@@ -132,7 +131,6 @@ section h2{
       position: fixed;
       background-color: rgb(6, 36, 44);
       z-index: 10;
-      height: 5vh;
       display: flex;
       justify-content: center;
       width: 100vw;
@@ -141,12 +139,12 @@ section h2{
       overflow: hidden;
       position: fixed;
       z-index: 1;
-      width: 100vw;
-      margin: 0;
+      width: 100vw!important;
+      margin: 0px!important;
       height: 0;
-      top:3vh;
+      top:100vh;
+      padding-left: 0px!important;
       transition: 0.5s ease;
-      /* background-color: rgb(38, 79, 80); */
   }
   .menu a{
       color: rgb(0,220,129);
@@ -157,11 +155,13 @@ section h2{
       background-color: rgb(3, 25, 31);
       height: 13em;
       width: 100vw;
+      top: 0px!important;
+      margin: 0px!important;
   }
   ul{
       display: block;
       width: 100%;
-      text-align: left;
+      text-align: center;
       margin: auto;
       padding: 1em;
   }
@@ -172,13 +172,12 @@ section h2{
       margin: auto;
       font-size: 0.75em;
   }
-  .burger i{
+  .burger img{
       z-index: 12;
       position: fixed;
       display: flex;
-      font-size: 2em;
+      width: 30px;
       margin: 10px;
-      color: rgb(0,220,129);
   }
 
   .burger{
@@ -195,16 +194,34 @@ section h2{
   .section-hero #presentation h1{
       width: 80%;
       color: #fff;
+      padding: 0;
   }
   .section-hero #presentation h2{
       width: 80%;
+      padding:0;
   }
  .slidehome{
      display: block;
      overflow-x: hidden;
      width: 100vw;
-     top :15vh;
+     top :100vh;
  }
+ .button-heading{
+  position: inherit;
+  width: 100vw;
+  height: auto;
+  writing-mode:inherit;
+  text-orientation:inherit;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  background: rgb(1,30,38);
+  color:rgb(0,220,129);
+  text-align: center;
+  padding:10px 50px 10px 50px;
+  font-size:8px;
+}
+
+
  .icon-scroll{
      display: none;
  }
@@ -224,54 +241,6 @@ section h2{
      text-align: center;
      padding-top: none;
  }
- .barreformcomp,.barreformcontact,.barreformservice,.containerhelp{
-    display: none;
- }
-
- .grille img{
-  font-size: 5em;
-  margin-top: 0.3em;
-  color: rgb(255, 255, 255);
-  transition: 0.3s ease-in-out;
-
-}
- .grille{
-  max-width:100%;
-  width: 100%;
-  height: auto;
-  margin-top:2em;
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fill,11em);
-  justify-content: center;
-  grid-gap:0.3em;
-}
-.containerservice{
-  margin: inherit;
-  padding: inherit;
-}
-.container-serv{
-  max-width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
-  padding: auto;
-}
-.container-serv .container-text{
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  text-align: center;
-  padding: inherit;
-  justify-content: center;
-  align-self: center;
-}
-.container-text p{
-  text-align: justify;
-  margin: auto;
-}
-
-
 }
 
 

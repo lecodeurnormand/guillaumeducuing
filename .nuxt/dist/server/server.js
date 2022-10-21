@@ -6052,7 +6052,7 @@ function shouldScrollToTop(route) {
 
 
 
-const _539ec632 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 8).then(__webpack_require__.bind(null, 72)));
+const _539ec632 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 8).then(__webpack_require__.bind(null, 73)));
 
 const emptyFn = () => {};
 external_vue_default.a.use(external_vue_router_default.a);
@@ -6694,10 +6694,10 @@ const layouts = {
 const Footer = () => __webpack_require__.e(/* import() | components/footer */ 1).then(__webpack_require__.bind(null, 33)).then(c => wrapFunctional(c.default || c));
 const Form = () => __webpack_require__.e(/* import() | components/form */ 2).then(__webpack_require__.bind(null, 32)).then(c => wrapFunctional(c.default || c));
 const Header = () => __webpack_require__.e(/* import() | components/header */ 3).then(__webpack_require__.bind(null, 31)).then(c => wrapFunctional(c.default || c));
-const Hero = () => __webpack_require__.e(/* import() | components/hero */ 4).then(__webpack_require__.bind(null, 64)).then(c => wrapFunctional(c.default || c));
-const Projects = () => __webpack_require__.e(/* import() | components/projects */ 5).then(__webpack_require__.bind(null, 67)).then(c => wrapFunctional(c.default || c));
-const Services = () => __webpack_require__.e(/* import() | components/services */ 6).then(__webpack_require__.bind(null, 66)).then(c => wrapFunctional(c.default || c));
-const Skills = () => __webpack_require__.e(/* import() | components/skills */ 7).then(__webpack_require__.bind(null, 65)).then(c => wrapFunctional(c.default || c));
+const Hero = () => __webpack_require__.e(/* import() | components/hero */ 4).then(__webpack_require__.bind(null, 65)).then(c => wrapFunctional(c.default || c));
+const Projects = () => __webpack_require__.e(/* import() | components/projects */ 5).then(__webpack_require__.bind(null, 68)).then(c => wrapFunctional(c.default || c));
+const Services = () => __webpack_require__.e(/* import() | components/services */ 6).then(__webpack_require__.bind(null, 67)).then(c => wrapFunctional(c.default || c));
+const Skills = () => __webpack_require__.e(/* import() | components/skills */ 7).then(__webpack_require__.bind(null, 66)).then(c => wrapFunctional(c.default || c));
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

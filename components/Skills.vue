@@ -53,5 +53,26 @@
         }
     }
 } 
+/*Mobile*/
+@media screen and ( max-width: 70em) {
+    .grilleanim img{
+  max-width: 80px;
+  margin-top: 0.3em;
+  color: rgb(255, 255, 255);
+  transition: 0.3s ease-in-out;
+
+}
+ .grilleanim{
+  max-width:100%;
+  width: 100%;
+  height: auto;
+  margin-top:2em;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,200px)!important;
+  justify-content: center;
+  grid-gap:0.3em;
+}
+}
 
 </style>

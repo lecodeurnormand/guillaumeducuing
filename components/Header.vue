@@ -20,7 +20,7 @@
             <img src="~assets/svg/logowhiteeyes.svg" alt="" class="header-logo">
         </div>
 </header>
-<div class="burger"><i class="fa-solid fa-bars" ></i></div>
+<div class="burger"><img src="~assets/svg/burger.svg" alt="logo menu burger"></div>
 <div class="menu">
     <nav>
         <ul>
@@ -98,7 +98,7 @@
     justify-content: center;
     border: 1px solid rgb(0,220,129);
     width: 80%;
-    height: auto;
+    height: 100vh;
     margin: auto;
     padding-bottom: 30px;
     margin-top: 50px;

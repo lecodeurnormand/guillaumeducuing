@@ -7,7 +7,7 @@ exports.modules = {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(57);
+var content = __webpack_require__(58);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -19,14 +19,14 @@ module.exports.__inject__ = function (context) {
 
 /***/ }),
 
-/***/ 55:
+/***/ 56:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/projet-pmp.6ab15df.png";
 
 /***/ }),
 
-/***/ 56:
+/***/ 57:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38,7 +38,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 57:
+/***/ 58:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -52,7 +52,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 67:
+/***/ 68:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -65,7 +65,7 @@ var render = function render() {
     _c = _vm._self._c;
   return _c('section', {
     staticClass: "section-projects"
-  }, [_vm._ssrNode("<div id=\"lienprojets\"></div> <h2><span class=\"button-heading\">Projets</span></h2> <div class=\"container-projets\"><div class=\"projet\"><img" + _vm._ssrAttr("src", __webpack_require__(55)) + " alt></div></div>")]);
+  }, [_vm._ssrNode("<div id=\"lienprojets\"></div> <h2><span class=\"button-heading\">Projets</span></h2> <div class=\"container-projets\"><div class=\"projet\"><img" + _vm._ssrAttr("src", __webpack_require__(56)) + " alt></div></div>")]);
 };
 var staticRenderFns = [];
 
@@ -79,7 +79,7 @@ var componentNormalizer = __webpack_require__(2);
 var script = {}
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(56)
+  var style0 = __webpack_require__(57)
 if (style0.__inject__) style0.__inject__(context)
 
 }
