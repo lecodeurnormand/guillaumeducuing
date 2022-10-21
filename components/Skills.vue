@@ -54,7 +54,7 @@
     }
 } 
 /*Mobile*/
-@media screen and ( max-width: 70em) {
+@media screen and ( max-width: 80em) {
     .grilleanim img{
   max-width: 80px;
   margin-top: 0.3em;

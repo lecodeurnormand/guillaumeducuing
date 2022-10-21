@@ -151,7 +151,7 @@
     }
 }   
 /*Mobile*/
-@media screen and ( max-width: 70em) {
+@media screen and ( max-width: 80em) {
 .containerservice{
   margin: inherit;
   padding: inherit;
@@ -171,6 +171,9 @@
   padding: inherit;
   justify-content: center;
   align-self: center;
+}
+.section-services .container-serv .cadreservice {
+margin:50px auto 50px auto;
 }
 .container-text p{
   text-align: justify;

@@ -8,7 +8,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Guillaume Ducuing, Développeur Front-end pour vous accompagner dans tous vos projets !' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [

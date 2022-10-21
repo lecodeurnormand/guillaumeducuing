@@ -3,7 +3,7 @@
 <section class="section-form">
     <h2><span class="button-heading">Contact</span></h2>
     <div class="formulaire">
-    <form action="form.php" method="POST">
+    <form action="https://formspree.io/f/xpznjnyd" method="POST">
         <div class="name" >
             <label for="name"></label>
             <input type="text" id="name" name="name" placeholder="NOM" autocomplete="off" required>
@@ -22,7 +22,7 @@
             <textarea id="msg" name="message" placeholder="VOTRE MESSAGE" autocomplete="off" required></textarea>
         </div>
         <div class="button">
-            <button type="submit">Envoyer</button>
+            <button type="submit" name="submit">Envoyer</button>
         </div>
             
     </form>
@@ -60,8 +60,8 @@ input::placeholder{
     opacity: 0.5;
 }
 input:focus::placeholder{
-    transform:translateY(25px);
-    transition: all 0.6s ease;
+    transform:translateX(-100%);
+    transition: all 2.6s ease;
 }
 input{
     color: white;
@@ -132,7 +132,7 @@ button:hover{
 }
 
 /* MOBILE-------------------------------------------- */
-@media screen and ( max-width: 64em) {
+@media screen and ( max-width: 80em) {
 
     .formulaire{
 
@@ -165,8 +165,8 @@ button:hover{
     
     }
     .name,.mail{
-        display:block;
-        margin: auto;
+        display:flex;
+        text-align: center;
     }
     #msg{
         display: block;
@@ -193,5 +193,13 @@ button:hover{
         transition-property: background-color;
         transition-duration: 0.6s;
     }
+    input,textarea{
+        font-size: 25px;
+    }
+    input:focus::placeholder{
+    transform:translateX(-100%);
+    transition: all 2.6s ease;
+}
+
 }
 </style>

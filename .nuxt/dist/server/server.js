@@ -6846,7 +6846,7 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "hid": "description",
         "name": "description",
-        "content": ""
+        "content": "Guillaume Ducuing, Développeur Front-end pour vous accompagner dans tous vos projets !"
       }, {
         "name": "format-detection",
         "content": "telephone=no"

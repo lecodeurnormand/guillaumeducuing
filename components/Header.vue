@@ -56,9 +56,11 @@
 /* LOADER PAGE */
 .loader{
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100%;
-    
     background: rgb(1,30,38);
     z-index: 10;
 }
@@ -83,6 +85,7 @@
 }
 .loader .frame .container-text{
     text-align: center;
+    margin-top: 50px;
 }
 .loader .frame .container-text h1,h2{
    font-weight: lighter;
@@ -92,14 +95,13 @@
 }
 .loader .frame{
     position: relative;
-    display: flex;
+    display: block;
     justify-content: center;
     border: 1px solid rgb(0,220,129);
     width: 80%;
-    height: 100vh;
-    margin: auto;
+    height: max-content;
+    // margin: 50px auto 50px auto;
     padding-bottom: 30px;
-    margin-top: 50px;
     box-shadow: 1px;
 }
 .frame.go{
@@ -120,6 +122,7 @@
     justify-content: center;
     align-self: center;
     flex-direction: column;
+    margin: auto;
 }
 .loader .logo-white{
     margin: auto;
@@ -128,12 +131,12 @@
 .loader .logo-white img{
     width: 150px;
 }
-.frame .container-text {
-    padding: inherit;
-    margin: inherit;
-    width: inherit;
-    font-size: 18px;
-}
+// .loader .frame .container-text {
+//     padding: inherit;
+//     margin: inherit;
+//     width: inherit;
+//     font-size: 18px;
+// }
 .loader .button{
     display: flex;
     font-weight: bold;

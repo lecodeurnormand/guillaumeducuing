@@ -16,6 +16,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-  
   }
-  
+  @media screen and ( max-width: 80em) {
+    p{
+      font-size: 25px;
+    }
+  }

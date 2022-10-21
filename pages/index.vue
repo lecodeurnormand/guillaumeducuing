@@ -113,7 +113,7 @@ section h2{
 }
 
 /*Mobile*/
-@media screen and ( max-width: 70em) {
+@media screen and ( max-width: 80em) {
 
   html{
       width: 100vw;
@@ -142,7 +142,6 @@ section h2{
       width: 100vw!important;
       margin: 0px!important;
       height: 0;
-      top:100vh;
       padding-left: 0px!important;
       transition: 0.5s ease;
   }
@@ -218,7 +217,7 @@ section h2{
   color:rgb(0,220,129);
   text-align: center;
   padding:10px 50px 10px 50px;
-  font-size:8px;
+  font-size:25px;
 }
 
 
