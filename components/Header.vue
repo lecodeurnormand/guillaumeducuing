@@ -54,13 +54,11 @@
 <style lang="scss">
 
 /* LOADER PAGE */
-.scroll{
-    // overflow-y: hidden;
-}
 .loader{
     position: fixed;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    
     background: rgb(1,30,38);
     z-index: 10;
 }

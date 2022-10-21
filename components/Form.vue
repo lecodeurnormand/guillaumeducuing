@@ -1,8 +1,8 @@
 <template>
     <!-------------------- SECTION FORM --------------> 
 <section class="section-form">
+    <h2><span class="button-heading">Contact</span></h2>
     <div class="formulaire">
-        <h2><span class="button-heading">Contact</span></h2>
     <form action="form.php" method="POST">
         <div class="name" >
             <label for="name"></label>
@@ -150,7 +150,7 @@ button:hover{
         text-transform: uppercase;
         letter-spacing: 3px;
         margin:auto;
-        width: 100%;
+        width: 80vw;
     
     }
     #name,#mail,#phone,#msg{

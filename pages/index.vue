@@ -107,7 +107,7 @@ section h2{
 @media screen and (min-width: 64em){
 
   .burger img{
-  visibility: hidden;
+  display: none;
   }
 
 }
@@ -204,7 +204,7 @@ section h2{
      display: block;
      overflow-x: hidden;
      width: 100vw;
-     top :100vh;
+     top :60vh;
  }
  .button-heading{
   position: inherit;
@@ -237,6 +237,12 @@ section h2{
      padding: 0;
  }
  section h1{
+     font-size: 1.7em;
+     text-align: center;
+     padding-top: none;
+ }
+ section h2{
+    display: block;
      font-size: 1.7em;
      text-align: center;
      padding-top: none;
