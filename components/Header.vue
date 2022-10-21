@@ -9,6 +9,7 @@
                         <img src="~assets/svg/logowhiteeyes.svg" alt="">
                     </div>
                     <h1>Guillaume Ducuing</h1>
+                    <!-- <div class="icon-scroll"></div> -->
                     <span class="button">Scroll !</span>
                 </div>
             </div>

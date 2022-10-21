@@ -77,6 +77,9 @@ input{
     font-family: 'Montserrat', Arial, sans-serif;
     outline: none;
 }
+#mail{
+    width: 300px;
+}
 textarea#msg{
     border: 0.1px solid white;
 }
@@ -133,16 +136,13 @@ button:hover{
 
 /* MOBILE-------------------------------------------- */
 @media screen and ( max-width: 80em) {
-
     .formulaire{
-
         bottom: 0;
         right: 0;
         width: 100%;
         height:100%;
         background-color: transparent;
     }
-
     form{
         display: block;
         font-family: 'Montserrat', Arial, sans-serif;
@@ -150,8 +150,7 @@ button:hover{
         text-transform: uppercase;
         letter-spacing: 3px;
         margin:auto;
-        width: 80vw;
-    
+        width: 80vw; 
     }
     #name,#mail,#phone,#msg{
         display: block;
@@ -194,12 +193,11 @@ button:hover{
         transition-duration: 0.6s;
     }
     input,textarea{
-        font-size: 25px;
+        font-size: 15px;
     }
     input:focus::placeholder{
     transform:translateX(-100%);
     transition: all 2.6s ease;
 }
-
 }
 </style>

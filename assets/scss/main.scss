@@ -1,3 +1,5 @@
+// @import 'reset.scss';
+
 @font-face {
     font-family: "Montserrat";
     src: url("'~assets/fonts/Montserrat-ExtraLight.ttf") format("truetype");
@@ -19,6 +21,6 @@
   }
   @media screen and ( max-width: 80em) {
     p{
-      font-size: 25px;
+      font-size: 15px;
     }
   }
