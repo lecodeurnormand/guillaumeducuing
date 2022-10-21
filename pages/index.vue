@@ -26,14 +26,15 @@ export default {
   },
   methods: {
     animateOnScroll() {
-      // this.$gsap.to(window, { duration: 4, scrollTo: 200 })
-      this.$gsap.to('.container-serv', {
-        x:"50",
+      // this.$gsap.to(window, { duration: 1, })
+      this.$gsap.to('.button-heading', {
+        width:"30px",
         ease: 'Power3.easeInOut',
         scrollTrigger: {
-          trigger: '.pulsar',
-          end: 'bottom',
-          scrub: true
+          trigger: '.button-heading',
+          end: '400px',
+          duration:"200%",
+          scrub: true,
         }
       })
     },
@@ -90,7 +91,8 @@ section h2{
 
 .button-heading{
   position: absolute;
-  width: 30px;
+  left:-10px;
+  width: 0;
   height: auto;
   writing-mode: vertical-lr;
   text-orientation: upright;

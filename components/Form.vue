@@ -1,7 +1,7 @@
 <template>
     <!-------------------- SECTION FORM --------------> 
 <section class="section-form">
-    <h2><span class="button-heading">Contact</span></h2>
+    <h2 class="button-heading">Contact</h2>
     <div class="formulaire">
     <form action="https://formspree.io/f/xpznjnyd" method="POST">
         <div class="name" >

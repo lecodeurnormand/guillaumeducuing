@@ -1,7 +1,7 @@
 <template>
 <section class="section-projects">
         <div id="lienprojets"></div>
-        <h2><span class="button-heading">Projets</span></h2>
+        <h2 class="button-heading">Projets</h2>
         <div class="container-projets">
         <div class="projet">
             <img src="~assets/projet-pmp.png" alt="">

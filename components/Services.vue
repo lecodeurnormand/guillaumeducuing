@@ -1,7 +1,7 @@
 <template>
 <section class="section-services">
     <div id="services"></div>
-    <h2><span class="button-heading">Services</span></h2>
+    <h2 class="button-heading">Services</h2>
     <div class="containerservice">
 
     <div class="container-serv">

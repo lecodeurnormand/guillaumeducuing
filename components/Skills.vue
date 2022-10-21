@@ -5,7 +5,7 @@
         <div id="lienskill"></div>
     
         <div class="container-grille">
-            <h2><span class="button-heading">Skills</span></h2>
+            <h2 class="button-heading">Skills</h2>
             <div class="grilleanim">
         <a href=""><img src="~assets/svg/html.svg" alt="logo html">Html</a>
         <a href=""><img src="~assets/svg/css.svg" alt="logo css">Css</a>

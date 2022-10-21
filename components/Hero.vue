@@ -14,6 +14,8 @@
 .section-hero{
     #guillaume{
         width: 9em;
+        height: 9em;
+        border-radius: 50%;
         float: left;
         padding-left: 3em;
         padding-right: 1em;
