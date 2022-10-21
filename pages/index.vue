@@ -48,24 +48,7 @@ export default {
 }
 </script>
 <style lang="scss" global>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
-html{
-  scroll-behavior: smooth;
-}
-body{
-  font-family: 'Montserrat', Arial, sans-serif;
-  color:rgb(255, 255, 255);
-  padding: 0;
-  margin: 0;
-  width: 100vw;
-  overflow-x: hidden;
-  background: rgb(1,30,38);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-}
-
+@import '~assets/scss/main.scss';
 
 .slidehome{
   display:block;

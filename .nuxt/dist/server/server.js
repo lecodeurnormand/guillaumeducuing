@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"components/footer","2":"components/form","3":"components/header","4":"components/hero","5":"components/nuxt-logo","6":"components/projects","7":"components/services","8":"components/skills","9":"components/tutorial","10":"pages/index"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"components/footer","2":"components/form","3":"components/header","4":"components/hero","5":"components/projects","6":"components/services","7":"components/skills","8":"pages/index"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -5337,11 +5337,9 @@ __webpack_require__.d(components_namespaceObject, "Footer", function() { return 
 __webpack_require__.d(components_namespaceObject, "Form", function() { return Form; });
 __webpack_require__.d(components_namespaceObject, "Header", function() { return Header; });
 __webpack_require__.d(components_namespaceObject, "Hero", function() { return Hero; });
-__webpack_require__.d(components_namespaceObject, "NuxtLogo", function() { return NuxtLogo; });
 __webpack_require__.d(components_namespaceObject, "Projects", function() { return Projects; });
 __webpack_require__.d(components_namespaceObject, "Services", function() { return Services; });
 __webpack_require__.d(components_namespaceObject, "Skills", function() { return Skills; });
-__webpack_require__.d(components_namespaceObject, "Tutorial", function() { return Tutorial; });
 
 // EXTERNAL MODULE: external "vue"
 var external_vue_ = __webpack_require__(0);
@@ -6054,7 +6052,7 @@ function shouldScrollToTop(route) {
 
 
 
-const _539ec632 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 10).then(__webpack_require__.bind(null, 73)));
+const _539ec632 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 8).then(__webpack_require__.bind(null, 72)));
 
 const emptyFn = () => {};
 external_vue_default.a.use(external_vue_router_default.a);
@@ -6696,12 +6694,10 @@ const layouts = {
 const Footer = () => __webpack_require__.e(/* import() | components/footer */ 1).then(__webpack_require__.bind(null, 33)).then(c => wrapFunctional(c.default || c));
 const Form = () => __webpack_require__.e(/* import() | components/form */ 2).then(__webpack_require__.bind(null, 32)).then(c => wrapFunctional(c.default || c));
 const Header = () => __webpack_require__.e(/* import() | components/header */ 3).then(__webpack_require__.bind(null, 31)).then(c => wrapFunctional(c.default || c));
-const Hero = () => __webpack_require__.e(/* import() | components/hero */ 4).then(__webpack_require__.bind(null, 65)).then(c => wrapFunctional(c.default || c));
-const NuxtLogo = () => __webpack_require__.e(/* import() | components/nuxt-logo */ 5).then(__webpack_require__.bind(null, 75)).then(c => wrapFunctional(c.default || c));
-const Projects = () => __webpack_require__.e(/* import() | components/projects */ 6).then(__webpack_require__.bind(null, 68)).then(c => wrapFunctional(c.default || c));
-const Services = () => __webpack_require__.e(/* import() | components/services */ 7).then(__webpack_require__.bind(null, 67)).then(c => wrapFunctional(c.default || c));
-const Skills = () => __webpack_require__.e(/* import() | components/skills */ 8).then(__webpack_require__.bind(null, 66)).then(c => wrapFunctional(c.default || c));
-const Tutorial = () => __webpack_require__.e(/* import() | components/tutorial */ 9).then(__webpack_require__.bind(null, 74)).then(c => wrapFunctional(c.default || c));
+const Hero = () => __webpack_require__.e(/* import() | components/hero */ 4).then(__webpack_require__.bind(null, 64)).then(c => wrapFunctional(c.default || c));
+const Projects = () => __webpack_require__.e(/* import() | components/projects */ 5).then(__webpack_require__.bind(null, 67)).then(c => wrapFunctional(c.default || c));
+const Services = () => __webpack_require__.e(/* import() | components/services */ 6).then(__webpack_require__.bind(null, 66)).then(c => wrapFunctional(c.default || c));
+const Skills = () => __webpack_require__.e(/* import() | components/skills */ 7).then(__webpack_require__.bind(null, 65)).then(c => wrapFunctional(c.default || c));
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

@@ -10,8 +10,6 @@ You can directly use them in pages and other components without the need to impo
 - `<Form>` | `<form>` (components/Form.vue)
 - `<Header>` | `<header>` (components/Header.vue)
 - `<Hero>` | `<hero>` (components/Hero.vue)
-- `<NuxtLogo>` | `<nuxt-logo>` (components/NuxtLogo.vue)
 - `<Projects>` | `<projects>` (components/Projects.vue)
 - `<Services>` | `<services>` (components/Services.vue)
 - `<Skills>` | `<skills>` (components/Skills.vue)
-- `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)

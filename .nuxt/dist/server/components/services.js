@@ -1,4 +1,4 @@
-exports.ids = [7];
+exports.ids = [6];
 exports.modules = {
 
 /***/ 27:
@@ -66,7 +66,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 67:
+/***/ 66:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

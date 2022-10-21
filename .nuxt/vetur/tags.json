@@ -11,9 +11,6 @@
   "Hero": {
     "description": "Auto imported from components/Hero.vue"
   },
-  "NuxtLogo": {
-    "description": "Auto imported from components/NuxtLogo.vue"
-  },
   "Projects": {
     "description": "Auto imported from components/Projects.vue"
   },
@@ -22,8 +19,5 @@
   },
   "Skills": {
     "description": "Auto imported from components/Skills.vue"
-  },
-  "Tutorial": {
-    "description": "Auto imported from components/Tutorial.vue"
   }
 }
